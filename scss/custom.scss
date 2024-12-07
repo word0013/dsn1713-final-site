@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-family-sans-serif: "Urbanist", sans-serif;
+
+$primary: #0F9E92;
+$secondary: #fff;
+$hero-text-color: #fff;
+$dark: #EEFEFD;
+$light: #fff;
+$info: #074842;
+
+
+#hero {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/cta-books.jpg);
+    height: 80vh;
+    color: #fff;
+  }
+  
+  .btn-primary {
+    color: #fff;
+  }
+  
+  .navbar .nav-link {
+    color: #0F9E92;
+  }
+  
+  #featured .img {
+    height: 100px;
+    width: auto;
+  }
+  
+  .navbar-toggler {
+    border-color: $primary !important;
+  }
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.btn-primary {
+    color: #fff;
+}
+
+
+.btn-secondary {
+    color: #0F9E92;
+}
+
+.navbar-nav {
+    border-style: solid;
+    border-color: #0F9E92;
+    border-radius: 10px;
+}
+
+.footer {
+   border-top: solid;
+   border-color: #000; 
+}
+
+ .btn:hover {
+  color: #08544c;
+}
+
+.card-body {
+  background-color: #fff;
+}
+.card {
+  background-color: #fff;
+}
+
+
+
